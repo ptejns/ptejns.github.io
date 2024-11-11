@@ -20,6 +20,13 @@ body {
     margin-bottom: 40px;
 }
 
+/* Centering container */
+.container {
+    max-width: 900px; /* Set the max-width to control width on large screens */
+    margin: 0 auto; /* Centers the container horizontally */
+    padding: 0 20px; /* Adds a little side padding on smaller screens */
+}
+
 .header-content {
     display: flex;
     align-items: center;
