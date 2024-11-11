@@ -1,4 +1,4 @@
-/* Basic Reset */
+/* General Reset */
 * {
     margin: 0;
     padding: 0;
@@ -13,25 +13,84 @@ body {
     padding: 20px;
 }
 
-header, footer {
-    text-align: center;
-    margin-bottom: 20px;
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
 }
 
-h1 {
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+.text-content h1 {
+    font-size: 2.5em;
     color: #333;
 }
 
-ul {
-    list-style-type: none;
-    padding: 0;
+.text-content p {
+    font-size: 1.1em;
+    margin-top: 10px;
+    max-width: 500px;
 }
 
-a {
-    color: #0066cc;
-    text-decoration: none;
+.profile-picture img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: 20px;
+    border: 4px solid #333;
 }
 
-a:hover {
-    text-decoration: underline;
+.projects-section {
+    margin-top: 40px;
+}
+
+.projects-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.project-card {
+    background-color: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.project-thumbnail {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.project-tags {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.project-tags span {
+    display: inline-block;
+    background-color: #0066cc;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 8px;
+    margin: 4px 2px;
+    font-size: 0.8em;
+}
+
+.project-description {
+    font-size: 0.9em;
+    color: #555;
 }

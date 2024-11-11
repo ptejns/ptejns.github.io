@@ -3,26 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Engineering Projects</title>
+    <title>Pete Jones' Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>My Engineering Portfolio</h1>
-        <p>Welcome to my collection of engineering projects!</p>
+    <!-- Header with Name, Bio, and Headshot -->
+    <header class="header">
+        <div class="header-content">
+            <div class="text-content">
+                <h1>Pete Jones</h1>
+                <p>Mechanical Engineer & Maker - Passionate about building and coding projects that solve real-world problems. Experienced in 3D modeling, CNC machining, and automation.</p>
+            </div>
+            <div class="profile-picture">
+                <img src="headshot.jpg" alt="Pete Jones">
+            </div>
+        </div>
     </header>
 
-    <main>
+    <!-- Projects Section -->
+    <section class="projects-section">
         <h2>Projects</h2>
-        <ul>
-            <li><a href="project1.html">Project 1: Robotics Arm</a></li>
-            <li><a href="project2.html">Project 2: Weather Station</a></li>
-            <li><a href="project3.html">Project 3: Home Automation</a></li>
-        </ul>
-    </main>
-
-    <footer>
-        <p>Connect with me on <a href="https://www.linkedin.com/in/yourprofile">LinkedIn</a> | <a href="https://github.com/yourusername">GitHub</a></p>
-    </footer>
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="project1-thumbnail.jpg" alt="Project 1 Thumbnail" class="project-thumbnail">
+                <div class="project-tags">
+                    <span>3D Modeling</span>
+                    <span>Coding</span>
+                </div>
+                <p class="project-description">Robotic arm with precision control for small parts handling...</p>
+            </div>
+            <div class="project-card">
+                <img src="project2-thumbnail.jpg" alt="Project 2 Thumbnail" class="project-thumbnail">
+                <div class="project-tags">
+                    <span>CNC</span>
+                    <span>Automation</span>
+                </div>
+                <p class="project-description">Automated CNC machine for custom part production...</p>
+            </div>
+            <!-- Add more project cards as needed -->
+        </div>
+    </section>
 </body>
 </html>
