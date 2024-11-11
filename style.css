@@ -10,14 +10,7 @@ body {
     line-height: 1.6;
     color: #333;
     background-color: #f4f4f4;
-}
-
-/* Centering container */
-.container {
-    max-width: 900px;  /* Set max width */
-    width: 100%;       /* Allow full width up to max-width */
-    margin: 0 auto;    /* Centers horizontally */
-    padding: 20px;     /* Adds padding inside container */
+    padding: 20px;
 }
 
 .header {
@@ -32,7 +25,6 @@ body {
     align-items: center;
 }
 
-/* Rest of the styles remain the same */
 .text-content h1 {
     font-size: 2.5em;
     color: #333;
@@ -100,5 +92,5 @@ body {
 
 .project-description {
     font-size: 0.9em;
-    color:
+    color: #555;
 }
