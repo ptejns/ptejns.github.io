@@ -10,7 +10,14 @@ body {
     line-height: 1.6;
     color: #333;
     background-color: #f4f4f4;
-    padding: 20px;
+}
+
+/* Centering container */
+.container {
+    max-width: 900px;  /* Set max width */
+    width: 100%;       /* Allow full width up to max-width */
+    margin: 0 auto;    /* Centers horizontally */
+    padding: 20px;     /* Adds padding inside container */
 }
 
 .header {
@@ -20,18 +27,12 @@ body {
     margin-bottom: 40px;
 }
 
-/* Centering container */
-.container {
-    max-width: 900px; /* Set the max-width to control width on large screens */
-    margin: 0 auto; /* Centers the container horizontally */
-    padding: 0 20px; /* Adds a little side padding on smaller screens */
-}
-
 .header-content {
     display: flex;
     align-items: center;
 }
 
+/* Rest of the styles remain the same */
 .text-content h1 {
     font-size: 2.5em;
     color: #333;
@@ -99,5 +100,5 @@ body {
 
 .project-description {
     font-size: 0.9em;
-    color: #555;
+    color:
 }
