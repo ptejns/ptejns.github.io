@@ -22,7 +22,6 @@ body {
 
 /* Centering container */
 .container {
-    width: 100%;
     max-width: 900px; /* Set the max-width to control width on large screens */
     margin: 0 auto; /* Centers the container horizontally */
     padding: 0 20px; /* Adds a little side padding on smaller screens */
