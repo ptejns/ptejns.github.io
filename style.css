@@ -10,56 +10,46 @@ body {
     line-height: 1.6;
     color: #333;
     background-color: #f4f4f4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh; /* Ensures the body takes up full screen height */
-    margin: 0;
-}
-
-/* Centered Container for Content */
-.container {
-    max-width: 800px; /* Set max-width to control width */
-    width: 100%;
     padding: 20px;
-    text-align: center;
 }
 
-/* Header and Profile Section */
 .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     margin-bottom: 40px;
-    text-align: center;
 }
 
 .header-content {
     display: flex;
-    flex-direction: column; /* Stack name, bio, and picture */
     align-items: center;
 }
 
 .text-content h1 {
-    font-size: 3em; /* Increased font size */
+    font-size: 2.5em;
     color: #333;
-    margin-bottom: 10px;
 }
 
 .text-content p {
-    font-size: 1.2em; /* Slightly larger bio text */
-    max-width: 600px; /* Limit width for readability */
-    margin-bottom: 20px;
+    font-size: 1.1em;
+    margin-top: 10px;
+    max-width: 500px;
 }
 
 .profile-picture img {
-    width: 180px;
-    height: 180px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
-    margin-top: 10px;
+    margin-left: 20px;
     border: 4px solid #333;
 }
 
-/* Projects Section */
+.projects-section {
+    margin-top: 40px;
+}
+
 .projects-section h2 {
-    font-size: 2.5em;
+    font-size: 2em;
     margin-bottom: 20px;
     text-align: center;
 }
@@ -68,17 +58,13 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 20px;
-    justify-items: center; /* Centers each project card */
 }
 
-/* Project Card Styles */
 .project-card {
     background-color: white;
     border-radius: 12px;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    width: 100%; /* Ensures card takes up grid cell space */
-    max-width: 300px;
     text-align: center;
 }
 
@@ -98,13 +84,13 @@ body {
     display: inline-block;
     background-color: #0066cc;
     color: white;
-    padding: 6px 10px;
+    padding: 4px 8px;
     border-radius: 8px;
     margin: 4px 2px;
-    font-size: 0.85em; /* Slightly larger tag text */
+    font-size: 0.8em;
 }
 
 .project-description {
-    font-size: 1em;
+    font-size: 0.9em;
     color: #555;
 }
