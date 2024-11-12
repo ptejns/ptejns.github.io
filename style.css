@@ -70,7 +70,8 @@ body {
 
 /* Line separating Name and Bio */
 .bio-header {
-    border-bottom: 2px solid #ddd;  /* Thin line */
+    border-bottom: 3px solid #555;  /* Slightly thicker line */
+    width: 90%;  /* Make the line a bit longer */
     padding-bottom: 20px;
     margin-bottom: 20px; /* Space between name and bio */
 }
@@ -113,8 +114,16 @@ body {
 .projects-section {
     width: 100%;
     margin-top: 40px;
-    border-top: 2px solid #ddd;  /* Thin line */
+    border-top: 3px solid #555;  /* Slightly thicker line */
     padding-top: 20px;  /* Space above the projects section */
+}
+
+/* Contrasting Background Between Bio and Projects */
+.contrast-background {
+    background-color: #f0f0f0;  /* Light gray background */
+    width: 100%;
+    padding: 30px 0;  /* Add some padding to create space */
+    margin-bottom: 30px;  /* Space below the contrasting section */
 }
 
 /* Projects Section Styling */
