@@ -5,102 +5,119 @@
     box-sizing: border-box;
 }
 
+/* Basic Body Styling */
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
-    color: #333;
-    background-color: #f4f4f4;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh; /* Ensures body takes the full viewport height */
+    min-height: 100vh;
+    background-color: #f4f4f9;
+    color: #333;
     padding: 20px;
-    text-align: center; /* Ensures text is centered */
-    flex-direction: column; /* Stacks the content vertically */
+    text-align: center;
 }
 
-.header {
+/* Header Styling */
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+/* Bio Section Styling */
+.bio-section {
     display: flex;
-    flex-direction: column; /* Stacks header content vertically */
-    align-items: center; /* Centers header content horizontally */
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 800px;
     margin-bottom: 40px;
 }
 
-.header-content {
-    display: flex;
-    flex-direction: column; /* Stack content vertically */
-    align-items: center; /* Centers profile picture and text */
+.bio-content {
+    flex: 1 1 300px;
+    padding: 20px;
 }
 
-.text-content h1 {
-    font-size: 2.5em;
-    color: #333;
+.bio-content p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 10px;
 }
 
-.text-content p {
-    font-size: 1.1em;
+.resume-link {
+    display: inline-block;
     margin-top: 10px;
-    max-width: 500px;
-    text-align: center; /* Centers text content */
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.resume-link:hover {
+    background-color: #0056b3;
+}
+
+/* Profile Picture Styling */
+.profile-picture {
+    flex: 0 0 150px;
+    margin-left: 20px;
 }
 
 .profile-picture img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    margin-top: 20px;
-    border: 4px solid #333;
+    object-fit: cover;
 }
 
-.projects-section {
-    margin-top: 40px;
-    width: 100%;
-}
-
-.projects-section h2 {
-    font-size: 2em;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-.projects-grid {
+/* Projects Section Styling */
+.projects {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
-    justify-items: center; /* Ensures grid items (project cards) are centered */
+    width: 100%;
+    max-width: 1000px;
 }
 
 .project-card {
-    background-color: white;
-    border-radius: 12px;
+    background-color: #fff;
+    border-radius: 10px;
     padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
 }
 
-.project-thumbnail {
+.project-card img {
     width: 100%;
-    height: auto;
-    border-radius: 8px;
+    border-radius: 5px;
+    height: 150px;
+    object-fit: cover;
     margin-bottom: 10px;
 }
 
-.project-tags {
-    margin-top: 10px;
+.project-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #007bff;
+}
+
+.tags {
     margin-bottom: 10px;
 }
 
-.project-tags span {
+.tags span {
     display: inline-block;
-    background-color: #0066cc;
-    color: white;
+    background-color: #e2e3e5;
+    color: #333;
     padding: 4px 8px;
-    border-radius: 8px;
-    margin: 4px 2px;
-    font-size: 0.8em;
+    border-radius: 12px;
+    font-size: 0.85rem;
+    margin: 2px;
 }
 
-.project-description {
-    font-size: 0.9em;
-    color: #555;
+.project-card p {
+    font-size: 0.95rem;
+    color: #666;
 }
