@@ -68,6 +68,13 @@ body {
     padding-left: 20px; /* Aligns with the left padding of bio text */
 }
 
+/* Line separating Name and Bio */
+.bio-header {
+    border-bottom: 2px solid #ddd;  /* Thin line */
+    padding-bottom: 20px;
+    margin-bottom: 20px; /* Space between name and bio */
+}
+
 /* Bio Container */
 .bio-container {
     display: flex;
@@ -100,6 +107,14 @@ body {
     height: 150px;
     border-radius: 50%;
     object-fit: cover;
+}
+
+/* Line separating Bio and Projects */
+.projects-section {
+    width: 100%;
+    margin-top: 40px;
+    border-top: 2px solid #ddd;  /* Thin line */
+    padding-top: 20px;  /* Space above the projects section */
 }
 
 /* Projects Section Styling */
