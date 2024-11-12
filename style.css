@@ -42,14 +42,24 @@ body {
 
 /* Wrapper to center content vertically and horizontally */
 .content-wrapper {
-    max-width: 1200px;
-    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center; /* Center content vertically */
+    width: 100%;
+    max-width: 1200px; /* Limit max width */
+    text-align: center; /* Ensure everything is centered */
 }
 
-/* Header Styling - Align header with bio */
+/* Bio Section Styling */
+.bio-section {
+    width: 100%;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content in bio */
+}
+
 .bio-header h1 {
     font-size: 2.5rem;
     margin-bottom: 10px;
@@ -58,12 +68,7 @@ body {
     padding-left: 20px; /* Aligns with the left padding of bio text */
 }
 
-/* Bio Section Styling */
-.bio-section {
-    width: 100%;
-    margin-bottom: 40px;
-}
-
+/* Bio Container */
 .bio-container {
     display: flex;
     justify-content: center;
