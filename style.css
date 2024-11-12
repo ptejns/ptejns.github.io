@@ -18,6 +18,15 @@ body {
     text-align: center;
 }
 
+/* Wrapper to center content vertically and horizontally */
+.content-wrapper {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 /* Header Styling */
 header h1 {
     font-size: 3rem;
@@ -87,18 +96,19 @@ header h1 {
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: left;
+    width: 100%;
 }
 
 .project-card img {
     width: 100%;
     border-radius: 5px;
-    height: 150px;
+    height: 120px; /* Adjusted height for smaller thumbnails */
     object-fit: cover;
     margin-bottom: 10px;
 }
 
 .project-card h3 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin-bottom: 10px;
     color: #007bff;
 }
@@ -118,6 +128,6 @@ header h1 {
 }
 
 .project-card p {
-    font-size: 0.95rem;
+    font-size: 0.9rem;
     color: #666;
 }
