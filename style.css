@@ -13,7 +13,7 @@ body {
     align-items: center;
     min-height: 100vh;
     background-color: #8e8e99;
-    color: #000000;
+    color: #171616;
     padding: 20px;
     text-align: center;
     position: relative;
@@ -70,7 +70,7 @@ body {
 
 /* Line separating Name and Bio */
 .bio-header {
-    border-bottom: 3px solid #000000;  /* Slightly thicker line */
+    border-bottom: 3px solid #171616;  /* Slightly thicker line */
     width: 90%;  /* Make the line a bit longer */
     padding-bottom: 20px;
     margin-bottom: 20px; /* Space between name and bio */
