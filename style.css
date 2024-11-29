@@ -12,7 +12,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #6c6c76;
+    background-color: #67676fe9;
     color: #f8f6f6;
     padding: 20px;
     text-align: center;
@@ -30,7 +30,7 @@ body {
 }
 
 .resume-link, .email-text {
-    color: #555;
+    color: #f8f6f6;
     font-weight: normal;
     text-decoration: none;
 }
@@ -70,7 +70,7 @@ body {
 
 /* Line separating Name and Bio */
 .bio-header {
-    border-bottom: 3px solid #555;  /* Slightly thicker line */
+    border-bottom: 3px solid #f8f6f6;  /* Slightly thicker line */
     width: 90%;  /* Make the line a bit longer */
     padding-bottom: 20px;
     margin-bottom: 20px; /* Space between name and bio */
