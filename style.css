@@ -12,7 +12,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #7b7b86;
+    background-color: #8e8e99;
     color: #000000;
     padding: 20px;
     text-align: center;
@@ -30,7 +30,7 @@ body {
 }
 
 .resume-link, .email-text {
-    color: #000000;
+    color: #575454;
     font-weight: normal;
     text-decoration: none;
 }
